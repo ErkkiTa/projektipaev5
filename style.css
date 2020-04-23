@@ -4,9 +4,14 @@ html, body {
 }
 
 .container {
+    width: 90%;
+    max-width: 900px;
     background-color: lightgrey;
     width: 100%;
     padding: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    margin: auto;
 }
